@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto Mono', monospace; }
+
+.form {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em; }
+
+.form_container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%; }
+
+.form_title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: .4em; }
+
+.form_imput {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.8em 1em; }
+
+.form_cta {
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #089fe0;
+  color: #fff;
+  border: none;
+  font-weight: 300;
+  padding: .7em 0;
+  border-radius: .2em;
+  cursor: pointer; }
+
+.img-fondo {
+  background-image: url(.img-fondo); }
+
+style div {
+  background-image: url(.img-fondo); }
+
+#main-index {
+  background: url(../pages/IMAGENES/fondo.JPEG);
+  background-size: cover; }
+
+.LOGO {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px; }
+
+.MENU {
+  display: flex;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  justify-content: space-evenly; }
+
+.MAIN {
+  display: flex;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  justify-content: space-between;
+  align-content: space-around;
+  flex-wrap: wrap; }
+
+.MAIN-QUIENES-SOMOS {
+  font-family: cursive;
+  text-overflow: clip;
+  display: flex;
+  margin: auto;
+  border: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; }
+
+FOOTER {
+  display: flex;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  justify-content: space-evenly; }
+
+.MAIN-CONTACTO {
+  display: flex;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  justify-content: space-evenly; }
